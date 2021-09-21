@@ -1,5 +1,8 @@
 #container {
   margin: 30px;
+  background-color: #80ccff;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 #container div,button {
@@ -10,9 +13,14 @@ output {
   display: block;
   height: 24px;
   width: 100px;
-  border: 1px solid blue;
+  border: 1px solid black;
+  color: #004d80;
 }
 label {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
 
+}
+select {
+  width: 50px
 }
